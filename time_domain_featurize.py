@@ -40,7 +40,7 @@ for bearing in bearings:
                        'vaccel_skew': vaccel_skews})
 
     os.chdir('../..')  # save csv to project directory
-    df.to_csv(bearing + '_time_domain.csv', index=False)
+    df.to_csv(bearing + '_time_domain_features.csv', index=False)
 
 # ax = plt.subplot(241)
 # plt.plot(times, haccel_means)

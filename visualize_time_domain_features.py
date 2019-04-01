@@ -1,8 +1,5 @@
 import pandas as pd
-import os
-import glob
 import matplotlib.pyplot as plt
-import numpy as np
 
 bearings = ['Bearing1_1', 'Bearing1_2', 'Bearing1_6', 'Bearing1_7']
 plot_num = 1
@@ -46,4 +43,4 @@ for bearing in bearings:
     plt.savefig(bearing + '_time_domain_features.png')
     plot_num += 1
 
-plt.show()
+# plt.show()
